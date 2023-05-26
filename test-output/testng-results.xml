@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T12:22:39 IST" name="Luma.magentoSuite" finished-at="2023-05-23T12:23:44 IST" duration-ms="65565">
+    <groups>
+    </groups>
+    <test started-at="2023-05-23T12:22:39 IST" name="search" finished-at="2023-05-23T12:23:12 IST" duration-ms="33131">
+      <class name="lumaFramework.testCases.search">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:22:39 IST" name="openbrowser" finished-at="2023-05-23T12:22:51 IST" duration-ms="11908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SearchWithValidProductFromApplicationURL()[pri:1, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:22:51 IST" name="SearchWithValidProductFromApplicationURL" finished-at="2023-05-23T12:22:57 IST" duration-ms="5719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidProductFromApplicationURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:22:57 IST" name="tearDown" finished-at="2023-05-23T12:22:57 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:22:57 IST" name="openbrowser" finished-at="2023-05-23T12:23:05 IST" duration-ms="8402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SearchWithInValidProductFromApplicationURL()[pri:2, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:23:05 IST" name="SearchWithInValidProductFromApplicationURL" finished-at="2023-05-23T12:23:11 IST" duration-ms="5812" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your search returned no results.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your search returned no results.] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at lumaFramework.testCases.search.SearchWithInValidProductFromApplicationURL(search.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithInValidProductFromApplicationURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.search@769a1df5]" started-at="2023-05-23T12:23:12 IST" name="tearDown" finished-at="2023-05-23T12:23:12 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lumaFramework.testCases.search -->
+    </test> <!-- search -->
+    <test started-at="2023-05-23T12:22:39 IST" name="signout" finished-at="2023-05-23T12:23:16 IST" duration-ms="37441">
+      <class name="lumaFramework.testCases.signinout">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:22:39 IST" name="openbrowser" finished-at="2023-05-23T12:22:55 IST" duration-ms="15883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SignoutFromAccountClickSignoutOption()[pri:1, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:22:55 IST" name="SignoutFromAccountClickSignoutOption" finished-at="2023-05-23T12:22:58 IST" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignoutFromAccountClickSignoutOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:22:58 IST" name="tearDown" finished-at="2023-05-23T12:22:58 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:22:58 IST" name="openbrowser" finished-at="2023-05-23T12:23:14 IST" duration-ms="16299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SignoutAccountWithoutClickSignoutOptionWithCloseBrowser()[pri:2, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:23:14 IST" name="SignoutAccountWithoutClickSignoutOptionWithCloseBrowser" finished-at="2023-05-23T12:23:16 IST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignoutAccountWithoutClickSignoutOptionWithCloseBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signinout@7098b907]" started-at="2023-05-23T12:23:16 IST" name="tearDown" finished-at="2023-05-23T12:23:16 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lumaFramework.testCases.signinout -->
+    </test> <!-- signout -->
+    <test started-at="2023-05-23T12:22:39 IST" name="createanaccount" finished-at="2023-05-23T12:23:34 IST" duration-ms="54741">
+      <class name="lumaFramework.testCases.createanaccount">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:22:39 IST" name="openBrowser" finished-at="2023-05-23T12:22:54 IST" duration-ms="15135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CreateanAccountWithOnlyMandatoryFields()[pri:1, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:22:54 IST" name="CreateanAccountWithOnlyMandatoryFields" finished-at="2023-05-23T12:22:59 IST" duration-ms="4604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanAccountWithOnlyMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:22:59 IST" name="tearDown" finished-at="2023-05-23T12:22:59 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:22:59 IST" name="openBrowser" finished-at="2023-05-23T12:23:09 IST" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CreateanAccountWithAllMandatoryFields()[pri:2, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:09 IST" name="CreateanAccountWithAllMandatoryFields" finished-at="2023-05-23T12:23:13 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanAccountWithAllMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:13 IST" name="tearDown" finished-at="2023-05-23T12:23:14 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:14 IST" name="openBrowser" finished-at="2023-05-23T12:23:22 IST" duration-ms="7924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CreateanAccountWithWithoutEnteringDetailsIntoTheFields()[pri:3, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:22 IST" name="CreateanAccountWithWithoutEnteringDetailsIntoTheFields" finished-at="2023-05-23T12:23:24 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanAccountWithWithoutEnteringDetailsIntoTheFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:24 IST" name="tearDown" finished-at="2023-05-23T12:23:24 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:24 IST" name="openBrowser" finished-at="2023-05-23T12:23:32 IST" duration-ms="8040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="CreateanAccountWithExistingEmail()[pri:4, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:32 IST" name="CreateanAccountWithExistingEmail" finished-at="2023-05-23T12:23:33 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanAccountWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.createanaccount@10289886]" started-at="2023-05-23T12:23:33 IST" name="tearDown" finished-at="2023-05-23T12:23:34 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lumaFramework.testCases.createanaccount -->
+    </test> <!-- createanaccount -->
+    <test started-at="2023-05-23T12:22:39 IST" name="signin" finished-at="2023-05-23T12:23:44 IST" duration-ms="65565">
+      <class name="lumaFramework.testCases.signin">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:22:39 IST" name="openbrowser" finished-at="2023-05-23T12:22:53 IST" duration-ms="14024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SigninWithValidCredentials()[pri:1, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:22:53 IST" name="SigninWithValidCredentials" finished-at="2023-05-23T12:22:57 IST" duration-ms="3578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:22:57 IST" name="tearDown" finished-at="2023-05-23T12:22:57 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:22:57 IST" name="openbrowser" finished-at="2023-05-23T12:23:10 IST" duration-ms="12556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SigninWithInValidCredentials()[pri:2, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:10 IST" name="SigninWithInValidCredentials" finished-at="2023-05-23T12:23:15 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:15 IST" name="tearDown" finished-at="2023-05-23T12:23:15 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:15 IST" name="openbrowser" finished-at="2023-05-23T12:23:23 IST" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SigninWithValidEmailAndInValidPassword()[pri:3, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:23 IST" name="SigninWithValidEmailAndInValidPassword" finished-at="2023-05-23T12:23:26 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninWithValidEmailAndInValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:26 IST" name="tearDown" finished-at="2023-05-23T12:23:26 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:26 IST" name="openbrowser" finished-at="2023-05-23T12:23:35 IST" duration-ms="9164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SigninWithInValidEmailAndValidPassword()[pri:4, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:35 IST" name="SigninWithInValidEmailAndValidPassword" finished-at="2023-05-23T12:23:36 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninWithInValidEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:36 IST" name="tearDown" finished-at="2023-05-23T12:23:36 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:36 IST" name="openbrowser" finished-at="2023-05-23T12:23:44 IST" duration-ms="7389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="SigninWithoutCredentials()[pri:5, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:44 IST" name="SigninWithoutCredentials" finished-at="2023-05-23T12:23:44 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninWithoutCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lumaFramework.testCases.signin@50378a4]" started-at="2023-05-23T12:23:44 IST" name="tearDown" finished-at="2023-05-23T12:23:44 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lumaFramework.testCases.signin -->
+    </test> <!-- signin -->
+  </suite> <!-- Luma.magentoSuite -->
+</testng-results>

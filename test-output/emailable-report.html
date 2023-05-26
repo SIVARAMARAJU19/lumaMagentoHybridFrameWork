@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Luma.magentoSuite</th></tr>
+<tr><td><a href="#t0">search</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,131</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">signout</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">37,441</td><td></td><td></td></tr>
+<tr><td><a href="#t2">createanaccount</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">54,741</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">signin</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">65,565</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">12</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">190,878</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Luma.magentoSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">search &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">lumaFramework.testCases.search</td><td><a href="#m0">SearchWithInValidProductFromApplicationURL</a></td><td rowspan="1">1684824785969</td><td rowspan="1">5812</td></tr><tr><th colspan="4">search &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">lumaFramework.testCases.search</td><td><a href="#m1">SearchWithValidProductFromApplicationURL</a></td><td rowspan="1">1684824771421</td><td rowspan="1">5719</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">signout &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">lumaFramework.testCases.signinout</td><td><a href="#m2">SignoutAccountWithoutClickSignoutOptionWithCloseBrowser</a></td><td rowspan="1">1684824794685</td><td rowspan="1">1903</td></tr><tr class="passedeven"><td><a href="#m3">SignoutFromAccountClickSignoutOption</a></td><td rowspan="1">1684824775392</td><td rowspan="1">2650</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">createanaccount &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">lumaFramework.testCases.createanaccount</td><td><a href="#m4">CreateanAccountWithAllMandatoryFields</a></td><td rowspan="1">1684824789263</td><td rowspan="1">4688</td></tr><tr class="passedeven"><td><a href="#m5">CreateanAccountWithExistingEmail</a></td><td rowspan="1">1684824812390</td><td rowspan="1">1423</td></tr><tr class="passedeven"><td><a href="#m6">CreateanAccountWithOnlyMandatoryFields</a></td><td rowspan="1">1684824774644</td><td rowspan="1">4604</td></tr><tr class="passedeven"><td><a href="#m7">CreateanAccountWithWithoutEnteringDetailsIntoTheFields</a></td><td rowspan="1">1684824802627</td><td rowspan="1">1457</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">signin &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">lumaFramework.testCases.signin</td><td><a href="#m8">SigninWithInValidCredentials</a></td><td rowspan="1">1684824790183</td><td rowspan="1">4930</td></tr><tr class="passedeven"><td><a href="#m9">SigninWithInValidEmailAndValidPassword</a></td><td rowspan="1">1684824815558</td><td rowspan="1">749</td></tr><tr class="passedeven"><td><a href="#m10">SigninWithValidCredentials</a></td><td rowspan="1">1684824773532</td><td rowspan="1">3578</td></tr><tr class="passedeven"><td><a href="#m11">SigninWithValidEmailAndInValidPassword</a></td><td rowspan="1">1684824803247</td><td rowspan="1">2765</td></tr><tr class="passedeven"><td><a href="#m12">SigninWithoutCredentials</a></td><td rowspan="1">1684824824081</td><td rowspan="1">557</td></tr></tbody>
+</table>
+<h2>search</h2><h3 id="m0">lumaFramework.testCases.search#SearchWithInValidProductFromApplicationURL</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your search returned no results.] but found []
+	at lumaFramework.testCases.search.SearchWithInValidProductFromApplicationURL(search.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">lumaFramework.testCases.search#SearchWithValidProductFromApplicationURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>signout</h2><h3 id="m2">lumaFramework.testCases.signinout#SignoutAccountWithoutClickSignoutOptionWithCloseBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">lumaFramework.testCases.signinout#SignoutFromAccountClickSignoutOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>createanaccount</h2><h3 id="m4">lumaFramework.testCases.createanaccount#CreateanAccountWithAllMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">lumaFramework.testCases.createanaccount#CreateanAccountWithExistingEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">lumaFramework.testCases.createanaccount#CreateanAccountWithOnlyMandatoryFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">lumaFramework.testCases.createanaccount#CreateanAccountWithWithoutEnteringDetailsIntoTheFields</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>signin</h2><h3 id="m8">lumaFramework.testCases.signin#SigninWithInValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">lumaFramework.testCases.signin#SigninWithInValidEmailAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">lumaFramework.testCases.signin#SigninWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">lumaFramework.testCases.signin#SigninWithValidEmailAndInValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">lumaFramework.testCases.signin#SigninWithoutCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
