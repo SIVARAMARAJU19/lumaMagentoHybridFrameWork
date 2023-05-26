@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import lumaFramework.pageObjects.HomePage;
 import lumaFramework.resources.Base;
 
+
+//updated comment
 public class searchTest extends Base {
 
 	public WebDriver driver;
